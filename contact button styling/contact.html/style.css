@@ -1,23 +1,55 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <link href="style.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-            rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display:ital,wght@0,900;1,900&display=swap"
-            rel="stylesheet" />
-        <title>YOUR NAME Button</title>
-    </head>
+/*
+MY COLOR PALETTE
+Color 1 - #F87C4F
+Color 2 - #E396DF
+Color 3 - #91D6DE
+Color 4 - #F5DD90
+Color 5 - #84A975
+*/
+.background {
+    background-color: #F5DD90;
+}
 
-    <body class="background text">
-        <h1 class="headingone gravitas-one-regular">Clare Roth</h1>
-        <h2 class="playfair-display headingtwo"><em>journalist</em></h2>
-        <button id="Box" class="button hover button1 playfair-display">contact me</button>
-    </body>
-</html>
+.text { 
+    text-align: center; 
+}
+
+.button { 
+    background-color: #91D6DE;
+    color: #F87C4F;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    padding: 40px;
+    margin-top: 30px;
+}
+:hover { 
+    color: #E396DF;
+}
+
+#Box{ 
+  display: inline-block;
+}
+
+.headingone { 
+    letter-spacing: 6px;
+}
+.headingtwo { 
+    font-size: 25px;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.button1 {
+    border-radius: 8px;
+}
+
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
