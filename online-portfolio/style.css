@@ -1,0 +1,44 @@
+/*hex codes: 
+ * pink: #dd70a6 
+ * Brown:#a2837b 
+ * Gray: #c8c8c8  
+ * Cream:#e9e4e2 
+ * Green: #f1fff8 
+ * Black: #000000 */
+
+/*container, row, colum for bootstraps*/
+.script {
+    font-family: "Parisienne", cursive;
+    font-size: 80px;
+    padding-top: 60px;
+}
+.h2 {
+    font-family: "Balthazar", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 60px; /*padding is spacing around the row or whatever and margin is spacing between elemets */
+}
+/*colums must be added up to 12 */
+.size {
+    width: 100%;
+    margin: 20px;
+    padding-right: 20px;
+}
+
+#topper {
+    background-color: #f1fff8;
+}
+
+.button {
+    color: #dd70a6;
+    font-family: "Balthazar", serif;
+    border-radius: 30px; /*adding a rounded border */
+    border: 2px solid white;
+    width: 150px;
+    height: 50px;
+}
+.job {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
