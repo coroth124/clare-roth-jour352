@@ -41,15 +41,25 @@
     }
 
     .button {
-        color: #dd70a6;
+        color: #e9e4e2;
         font-family: "Balthazar", serif;
         border-radius: 30px; /*adding a rounded border */
-        border: 2px solid white;
-        width: 150px;
-        height: 50px;
-        margin-left: 100px;
-        margin-top: 100px;
-        padding-bottom: 3px;
+        border: 3px solid white;
+        width: 20px;
+        height: 40px;
+        font-size: 35px;
+        margin-left: 95px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        background-color: #dd70a6;
+        text-decoration: none;
+        margin-top: 40px;
+    }
+    .col-sm-4 {
+        margin-top: 40px;
+        padding-top: 20px;
     }
     .job {
         margin-top: 10px;
