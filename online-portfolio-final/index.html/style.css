@@ -31,17 +31,13 @@
         background-color: #a2837b;
     }
 
-    .size {
+    .photosize {
         width: 100%;
         margin: 20px;
     }
 
     #topper {
         background-color: #f1fff8;
-    }
-
-    .background {
-        background-color: #c8c8c8;
     }
 
     .button {
@@ -80,7 +76,7 @@
         font-weight: bold;
         background-color: #c8c8c8;
     }
-    .paragraph {
+    .description {
         padding-top: 50px;
         font-family: "Balthazar", serif;
         font-size: 20px;
