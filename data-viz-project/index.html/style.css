@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+          <head>
+                    <title>Clare Roth's Data Story</title>
+
+                    <meta charset="utf-8" />
+
+                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+                    <!-- Bootstrap CSS -->
+
+                    <link
+                              href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+                              rel="stylesheet"
+                              integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+                              crossorigin="anonymous" />
+                    <link href="style.css" rel="stylesheet" />
+          </head>
+
+          <body>
+                    <div id="article">
+                              <h1>Unemployment Rate by States in 2025 & 2026:</h1>
+
+                              <h3 id="byline">By Clare Roth</h3>
+
+                              <h4 id="date">April 20, 2026</h4>
+
+                              <p>
+                                        The United States unemployment rate has drastically changed within the past
+                                        year. This could be due to the rise in the presence of Immigration and Customs
+                                        Enforcement throughout the country. Many are scared to show up to work in fear
+                                        of being deported or have already been deported by the agency. With the creation
+                                        of the Department of Government Efficiencies in early 2025 the Trump
+                                        administration led a movement of mass firings of government officals deemed
+                                        unnecessary. This has led to Washington D.C. having the highest rate of
+                                        unemployment in the country. <br />
+                                        <br />
+                                        The government has shutdown twice during President Trump's second term. This has
+                                        led to some government officals leaving their posts as the uncertaintiy of a
+                                        paycheck takes a toll. The country has also faced rising inflation over the past
+                                        few years after recovering from the pandemic. Gas prices as the war in Iran
+                                        becomes more threatening with the closing of the Strait of Hormuz. The future is
+                                        uncertain with regards to unemployment as a whole but according to BBC News the
+                                        unemployment rate is projected to stabilize within the next few months.
+                              </p>
+
+                              <!--Chart embeds go here-->
+                              <div class="flourish-embed flourish-chart space" data-src="visualisation/28580593">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                        <noscript
+                                                  ><img
+                                                            src="https://public.flourish.studio/visualisation/28580593/thumbnail"
+                                                            width="100%"
+                                                            alt="visualization"
+                                        /></noscript>
+                              </div>
+
+                              <div class="flourish-embed flourish-chart" data-src="visualisation/28579351">
+                                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                                        <noscript
+                                                  ><img
+                                                            src="https://public.flourish.studio/visualisation/28579351/thumbnail"
+                                                            width="100%"
+                                                            alt="visualization"
+                                        /></noscript>
+                              </div>
+                    </div>
+          </body>
+</html>
