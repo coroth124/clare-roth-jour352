@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+h1 {
+    font-family: Courrier New;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p {
+    font-family: Georgia;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;}
+h3,
+h4 {
+    font-family: Lucinda Sans;
+    margin-left: 20px;
+}
+
+.flourish-embed {
+    width: 60%; 
+    margin: 20px auto;
+}
