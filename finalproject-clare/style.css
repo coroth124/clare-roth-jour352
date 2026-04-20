@@ -1,0 +1,32 @@
+@media screen {
+    h1 {
+        font-family: "Old Standard TT", serif;
+        font-weight: bold;
+        align-content: center;
+        font-size: 30px;
+    }
+    img {
+        width: 100%;
+    }
+    .caption {
+        font-family: "Alice", serif;
+        color: red;
+        margin-left: 10px;
+    }
+
+    .credit {
+        color: brown;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
