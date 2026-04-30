@@ -1,32 +1,162 @@
+/* Tan: #c1aea7 
+ * Gray: #b4b4b4
+ * Burgendy: #3d0026
+ * Red: #cc0000
+ * black: #000000
+ * White: #ffffff*/
+
 @media screen {
+    .topper {
+        background-color: black;
+    }
+    /*fix*/
+    #toppercol {
+        padding: 0px;
+        margin: 0px;
+    }
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     h1 {
         font-family: "Old Standard TT", serif;
         font-weight: bold;
         align-content: center;
-        font-size: 30px;
+        font-size: 70px;
+        text-align: center;
+        color: #cc0000;
+    }
+
+    h4 {
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center;
+        font-family: "Alice", serif;
+        color: brown;
+    }
+    .photo {
+        width: auto;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    /*fix this image sizing when smaller */
+
+    .car {
+        width: 100%;
+    }
+    #mainphoto {
+        width: 100%;
+    }
+    .caption {
+        margin-top: 10px;
+        font-family: "Alice", serif;
+        color: brown;
+        text-align: center;
+        font-weight: bold;
+    }
+    .date {
+        color: brown;
+        font-weight: thin;
+    }
+
+    .credit {
+        color: #ffffff;
+    }
+    .text {
+        font-family: "Alice", serif;
+        margin: auto;
+        color: black;
+    }
+    .interact {
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    #background {
+        width: 100%;
+        margin: auto;
     }
     img {
         width: 100%;
     }
-    .caption {
-        font-family: "Alice", serif;
-        color: red;
-        margin-left: 10px;
+    #byline {
+        margin: auto;
+        text-align: center;
+        color: black;
+        font-family: "Old Standard TT", serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .photocaption {
+        font-size: 14px;
+        color: gray;
+        padding-bottom: 25px;
     }
 
-    .credit {
-        color: brown;
+    #purpleheart {
+        width: 75%;
+        padding-left: 200px;
+    }
+    .pullquote {
+        width: 100%;
+        background-color: black;
+    }
+    .quote {
+        width: 90%;
+        margin: 10px auto 10px auto;
+        font-family: "Old Standard TT", serif;
+        letter-spacing: -0.04px;
+        font-weight: 700;
+        font-size: 50px;
+        color: #cc0000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .attribution {
+        width: 90%;
+        margin: 10px auto 10px auto;
+        color: #c1aea7;
+        font-family: "Alice", serif;
+        padding-bottom: 20px;
     }
 }
 
+/*ask for help with media queries*/
 @media (min-width: 576px) {
     h1 {
+        font-size: 100px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+
+    .quote {
+        width: 90%;
         font-size: 50px;
+    }
+
+    #background {
+        width: 60%;
     }
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 100px;
+        font-size: 150px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+
+    .quote {
+        width: 90%;
+        font-size: 25px;
+        
     }
 }
+
